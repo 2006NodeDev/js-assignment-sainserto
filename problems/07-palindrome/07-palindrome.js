@@ -4,9 +4,9 @@ Return true if someStr is a palindrome, otherwise return false */
 
 function isPalindrome(str) {
     let regex = /[^A-Za-z0-9]/g;
-    let lowRegStr = str.toLowerCase().replace(regex, '')
-    let reverseStr = lowRegStr.split('').reverse().join('')
-    return reverseStr === lowRegStr
+    let lowerCaseStr = str.toLowerCase().replace(regex, '')
+    let reversedStr = lowerCaseStr.split('').reverse().join('')
+    return reversedStr === lowerCaseStr
 }
 
 console.log(isPalindrome("not a palindrome")) //false

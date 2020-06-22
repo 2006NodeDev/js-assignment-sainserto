@@ -21,7 +21,7 @@ Example for printShape("Diamond", 5, "*");
   * 
 */
 function printShape(shape, height, character) {
-  let str
+  let str, i, j, k;
   switch (shape) {
       case 'Square' : 
           for(j = 0; j < height; j++){

@@ -4,6 +4,7 @@ Reverse and return the String. */
 
 function reverseStr(someStr){
     let reversedString = ""
+    let i
     for (i = someStr.length - 1; i >= 0; i--) {    
         reversedString += someStr[i]
     }
